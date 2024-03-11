@@ -1,7 +1,7 @@
-# A Simplest nginx server with docker
+# A simplest nginx server with docker
 
 ## Dockerfile
-```docker
+```dockerfile
 FROM nginx:alpine
 COPY index.html /usr/share/nginx/html/index.html
 ```
